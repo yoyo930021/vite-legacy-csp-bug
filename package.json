@@ -12,10 +12,5 @@
   },
   "dependencies": {
     "express": "^4.17.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "@vitejs/plugin-legacy": "link:../vite/packages/plugin-legacy"
-    }
   }
 }
