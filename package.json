@@ -1,0 +1,21 @@
+{
+  "name": "vite-legacy-csp-bug",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2",
+    "@vitejs/plugin-legacy": "1.6.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@vitejs/plugin-legacy": "link:../vite/packages/plugin-legacy"
+    }
+  }
+}
